@@ -208,7 +208,7 @@ jobs:
       #  │││ ││  ├┴┐├┤ ├┬┘
       # ─┴┘└─┘└─┘┴ ┴└─┘┴└─
       - name: push to docker
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: target/vela-ui
           cache: true
